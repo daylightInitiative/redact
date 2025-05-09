@@ -1,0 +1,29 @@
+[2025-05-09 12:34:10] [INFO] - Connection established from IP: 192.168.1.45, Port: 45000
+[2025-05-09 12:34:11] [INFO] - User: admin logged in from IP: 192.168.1.45 (Session ID: 23456)
+[2025-05-09 12:34:15] [INFO] - Data sent: 5MB - Source IP: 192.168.1.45, Destination IP: 192.168.2.10, Port: 80
+[2025-05-09 12:34:20] [INFO] - Connection closed from IP: 192.168.1.45, Port: 45000
+[2025-05-09 12:35:02] [ERROR] - Failed login attempt: User 'guest', IP: 192.168.3.50
+[2025-05-09 12:35:05] [ERROR] - Failed login attempt: User 'admin', IP: 192.168.3.50 (Reason: Incorrect password)
+[2025-05-09 12:35:07] [INFO] - User: guest logged in from IP: 192.168.3.50 (Session ID: 23457)
+[2025-05-09 12:36:00] [INFO] - Data received: 3MB - Source IP: 192.168.2.10, Destination IP: 192.168.1.45, Port: 22
+[2025-05-09 12:36:15] [WARNING] - Large file transfer detected (50MB) from User: admin, IP: 192.168.1.45 to 192.168.2.20, Port: 8080
+[2025-05-09 12:37:10] [INFO] - Connection established from IP: 192.168.4.60, Port: 3306
+[2025-05-09 12:37:12] [INFO] - User: test_user logged in from IP: 192.168.4.60 (Session ID: 23458)
+[2025-05-09 12:38:25] [INFO] - Connection closed from IP: 192.168.4.60, Port: 3306
+[2025-05-09 12:40:00] [INFO] - Successful file upload - User: admin, Source: /home/admin/file1.txt, Destination: /uploads/
+[2025-05-09 12:42:30] [INFO] - Connection established from IP: 10.0.0.15, Port: 445
+[2025-05-09 12:42:35] [INFO] - User: admin logged in from IP: 10.0.0.15 (Session ID: 23459)
+[2025-05-09 12:43:00] [INFO] - Data sent: 2MB - Source IP: 10.0.0.15, Destination IP: 10.0.0.50, Port: 80
+[2025-05-09 12:43:40] [ERROR] - Connection timeout - IP: 192.168.2.10, Port: 443
+[2025-05-09 12:44:10] [INFO] - Data received: 10MB - Source IP: 10.0.0.15, Destination IP: 192.168.2.10, Port: 443
+[2025-05-09 12:45:00] [WARNING] - Suspicious activity detected - Multiple failed login attempts for User: admin from IP: 192.168.3.50
+[2025-05-09 12:46:00] [INFO] - Connection closed from IP: 10.0.0.15, Port: 445
+[2025-05-09 12:47:00] [INFO] - Connection established from IP: 192.168.5.80, Port: 80
+[2025-05-09 12:47:30] [INFO] - User: jane_doe logged in from IP: 192.168.5.80 (Session ID: 23460)
+[2025-05-09 12:48:00] [INFO] - Data sent: 15MB - Source IP: 192.168.5.80, Destination IP: 192.168.1.45, Port: 443
+[2025-05-09 12:50:00] [INFO] - User: jane_doe logged out from IP: 192.168.5.80
+[2025-05-09 12:51:10] [INFO] - Connection established from IP: 192.168.3.90, Port: 22
+[2025-05-09 12:51:15] [INFO] - User: test_user logged in from IP: 192.168.3.90 (Session ID: 23461)
+[2025-05-09 12:51:30] [WARNING] - Failed file integrity check - File: /home/test_user/data.csv
+[2025-05-09 12:52:00] [ERROR] - Port scan detected - Source IP: 192.168.3.90, Target: 192.168.1.0/24
+[2025-05-09 12:52:30] [INFO] - Connection closed from IP: 192.168.3.90, Port: 22

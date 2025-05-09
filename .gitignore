@@ -1,0 +1,7 @@
+
+# make symbolic link
+redact
+
+# build folders
+bin/
+obj/
